@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription | Firebase</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="" id="simplon">
+            <div class="alert">Félicitation, vous etes desormais inscrit...</div>
+
+            <div class="inputBox">
+                <input type="text" id="name" placeholder="Nom...." />
+            </div>
+
+            <div class="inputBox">
+                <input type="text" id="prenom" placeholder="Prenom(s)...." />
+            </div>
+
+            <div class="inputBox">
+                <input type="tel" id="contact" placeholder="Contact...." />
+            </div>
+
+            <div class="inputBox">
+                <input type="email" id="emailid" placeholder="E-mail....."  required />
+            </div>
+
+            <div class="inputBox">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+
+        <div class="next">
+            <a href="./search.html">Consulter le nombre de personne inscrit à l'annonce.</a>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="./script.js"></script>
+    <script src="./search.js"></script>
+</body>
+
+</html>
